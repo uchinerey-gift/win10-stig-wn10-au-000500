@@ -1,5 +1,7 @@
 # Lab Commands — WN10-AU-000500
 
+Environment: Windows 10 Virtual Machine accessed via Azure Bastion with administrative PowerShell.
+
 This file documents the commands executed during validation, remediation, and compliance verification of Windows 10 STIG control **WN10-AU-000500**.
 
 ## Baseline Validation
