@@ -1,5 +1,8 @@
 # 🛡️ Windows 10 STIG Remediation — WN10-AU-000500
 
+> Hands-on Windows 10 STIG remediation demonstrating compliance validation, automated remediation, and verification evidence collection.
+
+
 ## 📘 Project Overview
 This project demonstrates validation, remediation, and verification of the Windows 10 STIG control **WN10-AU-000500**, which requires the **Application Event Log maximum size** to be configured to **32768 KB (32 MB) or greater** to ensure sufficient audit log retention.
 
@@ -67,6 +70,15 @@ reg query "HKLM\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application" /v Max
 ```
 
 ----
+
+## Skills Demonstrated
+- STIG / Security Baseline Compliance Validation
+- Windows Registry Security Configuration
+- PowerShell Remediation Automation
+- Compliance Evidence Collection
+- Security Control Verification and Documentation
+
+-----
 
 ✅ Outcome
 
